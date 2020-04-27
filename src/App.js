@@ -14,9 +14,9 @@ useEffect(() => {
 function App() {
   async function handleAddRepository() {
     const response = await api.post('repositories', {
-      title: 'Jefferson',
-      url: 'https://github.com/JeffersonBraga90',
-      techs: ['ReactJS', 'Node.js', 'React-Native']
+      title: 'Umbriel',
+      url: 'https://github.com/rocketseat/umbriel',
+      techs: ['Node.js', 'ReactJS']
      });
     
      setRepositories([...repositories, response.data]); 
